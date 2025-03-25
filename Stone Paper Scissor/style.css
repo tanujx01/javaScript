@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background: #444;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+#reset-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#reset-btn:hover {
+  background: darkred;
+}
+
+.game-area {
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.player-section {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.player-section h2 {
+  margin-bottom: 10px;
+}
+
+.player1-choice,
+.player2-choice {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choice {
+  background: #555;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.choice:hover {
+  background: #777;
+}
+
+.versus h2 {
+  font-size: 24px;
+  color: gold;
+}
+
+.score-board {
+  background: #444;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
